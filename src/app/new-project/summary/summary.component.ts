@@ -11,7 +11,6 @@ import { SubHeadingComponent } from './sub-heading/sub-heading.component';
   styleUrls: ['./summary.component.scss']
 })
 export class SummaryComponent implements OnInit, AfterViewInit {
-<<<<<<< HEAD
  
 
  // Keeping Track of headings
@@ -21,16 +20,6 @@ export class SummaryComponent implements OnInit, AfterViewInit {
 
   projectSummaryForm;
   
-=======
-
-
-  // Keeping Track of headings
-
-  // Exposing the component in the class
-  subHeadingClass = SubHeadingComponent;
-
-  projectSummaryForm;
->>>>>>> 454c586b397c2ca1bda612d0520106cdb7c598d3
   @Output() summaryUpdated = new EventEmitter();
   title: string;
 

@@ -20,10 +20,7 @@ import { SummaryComponent } from './new-project/summary/summary.component';
 import { BudgetComponent } from './new-project/budget/budget.component';
 import { TimelineComponent } from './new-project/timeline/timeline.component';
 import { SubHeadingComponent } from './new-project/summary/sub-heading/sub-heading.component';
-<<<<<<< HEAD
 import { AddEventComponent } from './new-project/timeline/add-event/add-event.component';
-=======
->>>>>>> 454c586b397c2ca1bda612d0520106cdb7c598d3
 
 const appRoutes: Routes = [
   { path: '' , redirectTo: '/home' , pathMatch: 'full' },
@@ -57,10 +54,7 @@ const appRoutes: Routes = [
     BudgetComponent,
     TimelineComponent,
     SubHeadingComponent,
-<<<<<<< HEAD
     AddEventComponent,
-=======
->>>>>>> 454c586b397c2ca1bda612d0520106cdb7c598d3
   ],
   imports: [
     BrowserModule,
@@ -75,10 +69,6 @@ const appRoutes: Routes = [
   ],
   providers: [],
   bootstrap: [AppComponent],
-<<<<<<< HEAD
   entryComponents: [SubHeadingComponent,AddEventComponent]
-=======
-  entryComponents: [SubHeadingComponent]
->>>>>>> 454c586b397c2ca1bda612d0520106cdb7c598d3
 })
 export class AppModule { }
